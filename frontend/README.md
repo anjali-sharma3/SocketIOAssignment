@@ -41,3 +41,8 @@ Run the Frontend Development Server:
 6. npm start
 
 The frontend will run on http://localhost:3000.
+
+
+7. Database
+
+For testing this in local, create a db in mongoDB compass named as "gameApp" and create a collection named as "user" inside this.
