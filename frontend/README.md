@@ -4,7 +4,7 @@
 
 1. **Clone the Backend Repository:**
    ```bash
-   git clone https://github.com/yourusername/backend.git
+   git clone https://github.com/anjali-sharma3/SocketIOAssignment.git
    cd backend
 Install the Dependencies:
 
@@ -27,7 +27,7 @@ JWT_SECRET=your_jwt_secret
 clone the Frontend Repository:
 
 
-5. git clone https://github.com/yourusername/frontend.git
+5. git clone https://github.com/anjali-sharma3/SocketIOAssignment.git
 cd frontend
 
 Install the Dependencies:
