@@ -1,0 +1,48 @@
+.player-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f0f4f8; /* Light background for a soft look */
+  font-family: 'Arial', sans-serif; /* Set a clean font */
+}
+
+.welcome-message {
+  font-size: 24px;
+  color: #333; /* Darker text for better readability */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff; /* White background for the container */
+  padding: 20px; /* Padding for inner space */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.banana-button {
+  background: transparent; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Change cursor to pointer */
+  outline: none; /* Remove outline */
+  transition: transform 0.2s; /* Smooth transform transition */
+}
+
+.banana-button:hover {
+  transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+.banana-image {
+  width: 50%; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.click-count {
+  margin-top: 15px; /* Spacing above the click count */
+  font-size: 18px; /* Increase font size */
+  color: #555; /* Softer color for the text */
+}
